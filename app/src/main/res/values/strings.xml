@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CaboApp</string>
+
+    <!-- Menu BottomNavigationBar -->
+    <string name="menu_tarjetas">Tarjetas</string>
+    <string name="menu_videos">Videos</string>
+    <string name="menu_musica">Música</string>
+    <string name="menu_comunidad">Comunidad</string>
+</resources>

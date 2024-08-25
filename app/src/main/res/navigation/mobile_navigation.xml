@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_tarjetas">
+    <fragment
+        android:id="@+id/navigation_comunidad"
+        android:name="com.callecabo.caboapp.ui.comunidad.ComunidadFragment"
+        android:label="fragment_comunidad"
+        tools:layout="@layout/fragment_comunidad" />
+
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="com.callecabo.caboapp.ui.videos.VideosFragment"
+        android:label="fragment_videos"
+        tools:layout="@layout/fragment_videos" />
+    <fragment
+        android:id="@+id/navigation_musica"
+        android:name="com.callecabo.caboapp.ui.musica.MusicaFragment"
+        android:label="fragment_musica"
+        tools:layout="@layout/fragment_musica" />
+    <fragment
+        android:id="@+id/navigation_tarjetas"
+        android:name="com.callecabo.caboapp.ui.tarjetas.TarjetasFragment"
+        android:label="fragment_tarjetas"
+        tools:layout="@layout/fragment_tarjetas" >
+    </fragment>
+
+</navigation>
